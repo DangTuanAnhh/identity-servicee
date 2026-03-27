@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvn clean:*)",
+      "Bash(./mvnw.cmd clean:*)",
+      "Bash(chmod +x ./mvnw)",
+      "Bash(./mvnw clean:*)",
+      "Bash(mvn compile:*)",
+      "Bash(./mvnw compile:*)"
+    ]
+  }
+}
