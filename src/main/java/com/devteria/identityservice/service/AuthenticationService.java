@@ -44,7 +44,6 @@ import lombok.extern.slf4j.Slf4j;
 public class AuthenticationService {
     UserRepository userRepository;
     InvalidatedTokenRepository invalidatedTokenRepository;
-
     @NonFinal
     @Value("${jwt.signerKey}")
     protected String SIGNER_KEY;
